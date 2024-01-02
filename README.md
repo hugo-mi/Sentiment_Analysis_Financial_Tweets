@@ -12,8 +12,6 @@ The dataset holds 11,932 documents annotated with 3 labels:
 
 Assess the prediction performance on sentiment classification task on financial tweets
 
- Models
-
 ### Naive model
 
 We will apply a naïve model to predict the sentiment score of set of tweets, To do so, we will use a dictionary `SentiWordNet`
