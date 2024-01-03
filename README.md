@@ -80,7 +80,6 @@ To do so, as we are in a multi-class classification task (0=bearish, 1=bullish, 
 | :--------------- |:---------------:|:---------------:|:---------------:|:---------------:|
 | Naive Model {SentiWordNet}  |   blabla       |   blabla        |   blabla        |   blabla        |
 | Naive Model {SentiWordNet + Negation Words + Booster Words} | est             |   blabla       |   blabla        |   blabla        |
-| Naive Model {Emoji}  | centré          |   blabla        |   blabla        |   blabla      |
 | Naive Model {SentiWordNet + Negation & Booster Words + Emoji}  | centré          |   blabla        |   blabla        |   blabla      |
 | Vader Algorithm  | blabla          |   blabla        |   blabla       |  blabla       |
 | BERT fine-tuned  | 0.88          |   0.84        |   0.85        |   0.85        |
