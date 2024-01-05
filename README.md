@@ -82,6 +82,7 @@ To do so, as we are in a multi-class classification task (0=bearish, 1=bullish, 
 | Naive Model {SentiWordNet + Negation Words + Booster Words} | 0.43             |   0.37       |   0.38        |   0.36        |
 | Naive Model {SentiWordNet + Negation & Booster Words + Emoji}  | 0.42          |   0.37        |   0.38        |   0.36      |
 | Vader Algorithm  | blabla          |   blabla        |   blabla       |  blabla       |
+| ML Model {CountVectorizer, TF-IDF, MultinomialNB}  | 0.64          |   0.55        |   0.60       |  0.57       |
 | BERT fine-tuned  | 0.88          |   0.84        |   0.85        |   0.85        |
 | FinTweetBERT  | 0.95          |   0.92        |   0.97        |   0.94        |
 | DistilRoBERTa  | 0.75          |   0.68        |   0.75        |   0.71        |
