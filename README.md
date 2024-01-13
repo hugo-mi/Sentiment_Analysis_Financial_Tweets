@@ -80,10 +80,11 @@ To do so, as we are in a multi-class classification task (0=bearish, 1=bullish, 
 | :--------------- |:---------------:|:---------------:|:---------------:|:---------------:|
 | Naive Model {SentiWordNet}  |   0.42       |   0.37        |   0.38        |   0.36        |
 | Naive Model {SentiWordNet + Negation Words + Booster Words} | 0.43             |   0.37       |   0.38        |   0.36        |
-| Naive Model {SentiWordNet + Negation & Booster Words + Emoji}  | 0.42          |   0.37        |   0.38        |   0.36      |
-| Vader Algorithm  | blabla          |   blabla        |   blabla       |  blabla       |
+| Naive Model {SentiWordNet + Negation Words + Booster Words + Emoji}  | 0.42          |   0.37        |   0.38        |   0.36      |
+| Vader Algorithm  | 0.49          |   0.45        |   0.48       |  0.44       |
 | ML Model {CountVectorizer, TF-IDF, MultinomialNB}  | 0.64          |   0.55        |   0.60       |  0.57       |
-| BERT fine-tuned  | 0.88          |   0.84        |   0.85        |   0.85        |
-| FinTweetBERT  | 0.95          |   0.92        |   0.97        |   0.94        |
-| DistilRoBERTa  | 0.75          |   0.68        |   0.75        |   0.71        |
-| FinBERT  | 0.73          |   0.65        |   0.70        |   0.67        |
+| FinBERTx fine-tuned | 0.78      | 0.71      | 0.80   | 0.74 |
+| FinBERTa | 0.88*      | 0.84*      | 0.85*   | 0.85* |
+| FinTweetBERT | 0.22 | 0.33      | 0.34   | 0.32 |
+| DistilRoBERTa | 0.24 | 0.34      | 0.37   | 0.32 |
+| FinBERT | 0.53 | 0.33      | 0.39   | 0.32 |
